@@ -163,7 +163,7 @@ width:350px;
 height:100px;}
 .newsletter-container{
     width:1000px;
-    background-color: #e65c00;
+    background-color: #ED7D31;
 }
 .newsletter-heading{text-align:center;
 color:#ffffff;}
@@ -177,7 +177,8 @@ border:none;}
 .subscribe-button{width:145px;
 height:50px;
 border:none;
-background-color:}
+background-color:#F09150;
+color:#ffffff;}
 .contact-heading{text-align:center;
 color:#ffffff;}
 .phone{display:flex;}
