@@ -11,21 +11,24 @@ body {
     align-items: center;
     margin: 0;
 }
+h6{text-decoration: underline;
+padding:20px;}
 .navbar{
     position:fixed;
-    width:1350px;
+    width:100%;
     height: 70px;
     background-color: #ffffff;
 }
 
-.logo {
+.nav-logo {
     display: flex;
     align-items: center;
 }
 
-.logo img {
+.nav-logo  {
     height: 70px;
     margin-right: 10px;
+    left: 200px;
 }
 
 
@@ -135,4 +138,26 @@ p{
 	height: 100%;
 
 }
-
+.books{display:flex;
+    justify-content:space-evenly;
+}
+.democracy-img,
+.patriotism-img{
+    width:400px;
+    height:400px;
+}
+.patriotism-img{
+    position:relative;
+    top:-290px;
+    right:-20px;
+}
+.democracy-img{
+    position:relative;
+    top: -630px;
+    left:-20px;
+}
+.miss-khumalo{width:700px;
+height:700px;}
+@media(max-width:1024px){
+    navbar{width:100%;}
+}
