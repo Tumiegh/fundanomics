@@ -169,8 +169,13 @@ width:350px;
 height:100px;}
 
 .newsletter-container{
+<<<<<<< HEAD
     width:750px;
     background-color: #e65c00;
+=======
+    width:1000px;
+    background-color: #ED7D31;
+>>>>>>> d589fdf6786d4ca1a8ef6c14a2ae05096455d68c
 }
 /* if possible align text to the circle, if anyone can*/
 .intentions-circle{
@@ -216,8 +221,13 @@ border:none;}
 .subscribe-button{width:145px;
 height:50px;
 border:none;
+<<<<<<< HEAD
 background-color:}
 
+=======
+background-color:#F09150;
+color:#ffffff;}
+>>>>>>> d589fdf6786d4ca1a8ef6c14a2ae05096455d68c
 .contact-heading{text-align:center;
 color:#ffffff;}
 
