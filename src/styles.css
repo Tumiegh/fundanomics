@@ -158,6 +158,29 @@ p{
 }
 .miss-khumalo{width:700px;
 height:700px;}
+.page-logo{margin: 0 auto;
+width:350px;
+height:100px;}
+.newsletter-container{
+    width:1000px;
+    background-color: #e65c00;
+}
+.newsletter-heading{text-align:center;
+color:#ffffff;}
+.newsletter-text{text-align:center;
+color:#ffffff;}
+form{margin: 0 auto;}
+.input-email{width:245px;
+height:50px;
+margin:0 auto; 
+border:none;}
+.subscribe-button{width:145px;
+height:50px;
+border:none;
+background-color:}
+.contact-heading{text-align:center;
+color:#ffffff;}
+.phone{display:flex;}
 @media(max-width:1024px){
     navbar{width:100%;}
 }
