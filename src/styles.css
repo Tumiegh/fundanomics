@@ -140,62 +140,54 @@ h1 {
 p {
 	width: 100%;
 	height: 100%;
-
 }
 
 .books {
-    display:flex;
-    justify-content:space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
 .democracy-img,
 .patriotism-img {
-    width:400px;
-    height:400px;
+    width: 400px;
+    height: 400px;
 }
 
 .patriotism-img {
-    position:relative;
-    top:-290px;
-    right:-20px;
+    position: relative;
+    top: -290px;
+    right: -20px;
 }
 
 .democracy-img {
-    position:relative;
+    position: relative;
     top: -630px;
-    left:-20px;
+    left: -20px;
 }
 
 .miss-khumalo {
-    width:700px;
-    height:700px;
+    width: 700px;
+    height: 700px;
 }
 
 .page-logo {
     margin: 0 auto;
-    width:350px;
-    height:100px;
+    width: 350px;
+    height: 100px;
 }
 
-<<<<<<< HEAD
 .newsletter-container {
-=======
-.newsletter-container{
     width:750px;
     background-color: #e65c00;
->>>>>>> 9578d77857b33d44cfdcc338248e5e2137e8fbeb
     width:1000px;
     background-color: #ED7D31;
 }
 
 /* if possible align text to the circle, if anyone can*/
-<<<<<<< HEAD
 .intentions-circle {
     
 }
-=======
->>>>>>> 9578d77857b33d44cfdcc338248e5e2137e8fbeb
 
 #circle-one {
     background-color: #fbc02d;
@@ -218,60 +210,30 @@ p {
     margin-top: 200px;
     margin-bottom: 50px;
 }
-.para-one{position:relative;
-bottom:-100px;}
-.para-two{position:relative;
-bottom:-50px;}
 
-<<<<<<< HEAD
+.para-one {
+    position: relative;
+    bottom: -100px;
+}
+
+.para-two {
+    position: relative;
+    bottom: -50px;
+}
+
 .newsletter-heading {
-    text-align:center;
-    color:#ffffff;
-=======
-.newsletter-heading{text-align:center;
-color:#ffffff;}
+    text-align: center;
+    color: #ffffff;
+}
 
-.newsletter-text{text-align:center;
-color:#ffffff;}
-
-form{margin: 50px auto;
-    padding-left: 180px;}
-
-.input-email{width:245px;
-height:50px;
-margin:0 auto; 
-border:none;}
-
-.subscribe-button{width:145px;
-height:50px;
-border:none;
-background-color:#F09150;
-color:#ffffff;}
-
-.contact-heading{text-align:center;
-color:#ffffff;}
-
-.phone{display:flex;
-position:relative;
-right:-30px;}
-.email{position:relative;
-right:-30px;}
-.email-link{text-decoration:none;
-color:#ffffff;}
-.phone-number{color:#ffffff;}
-.fa-solid{color:#ffffff;}
-.copyright,
-.creation,
-.registration{text-align:center;
-color:#ffffff;}
-@media(max-width:1024px){
-    navbar{width:100%;}
->>>>>>> 9578d77857b33d44cfdcc338248e5e2137e8fbeb
+.newsletter-heading {
+    text-align: center;
+    color: #ffffff;
 }
 
 .newsletter-text {
-    text-align:center;
-    color:#ffffff;
+    text-align: center;
+    color: #ffffff;
 }
 
 form {
@@ -280,27 +242,94 @@ form {
 }
 
 .input-email {
-    width:245px;
-    height:50px;
-    margin:0 auto; 
-    border:none;
+    width: 245px;
+    height: 50px;
+    margin: 0 auto; 
+    border: none;
 }
 
 .subscribe-button {
-    width:145px;
-    height:50px;
-    border:none;
+    width: 145px;
+    height: 50px;
+    border: none;
     background-color:#F09150;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .contact-heading {
-    text-align:center;
-    color:#ffffff;
+    text-align: center;
+    color: #ffffff;
 }
 
 .phone {
-    display:flex;
+    display: flex;
+    position: relative;
+    right: -30px;
+}
+
+.email {
+    position: relative;
+    right: -30px;
+}
+
+.email-link {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.phone-number {
+    color: #ffffff;
+}
+
+.fa-solid {
+    color: #ffffff;
+}
+
+.copyright,
+.creation,
+.registration {
+    text-align: center;
+    color: #ffffff;
+}
+
+@media(max-width:1024px) {
+    navbar {
+        width: 100%;
+    }
+}
+
+.newsletter-text {
+    text-align: center;
+    color: #ffffff;
+}
+
+form {
+    margin: 50px auto;
+    padding-left: 180px;
+}
+
+.input-email {
+    width: 245px;
+    height: 50px;
+    margin: 0 auto; 
+    border: none;
+}
+
+.subscribe-button {
+    width: 145px;
+    height: 50px;
+    border: none;
+    background-color: #F09150;
+    color: #ffffff;
+}
+
+.contact-heading {
+    text-align: center;
+    color: #ffffff;
+}
+
+.phone {
+    display: flex;
 }
 
 @media(max-width:1024px) {
