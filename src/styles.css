@@ -92,6 +92,11 @@ h1 {
     background-color: #1976d2;
 }
 .container-one-heading{margin:25px;}
+.trust-circles{
+    width:900px;
+    height:-300px;
+    margin: 20px auto;
+}
 .circle-container {
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +113,7 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 10px;
+    margin: 10px auto;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -170,7 +175,7 @@ p {
     width: 700px;
     height: 700px;
 }
-
+.project-pilot{text-align:center;}
 .page-logo {
     margin: 0 auto;
     width: 350px;
@@ -185,9 +190,6 @@ p {
 }
 
 /* if possible align text to the circle, if anyone can*/
-.intentions-circle {
-    
-}
 
 #circle-one {
     background-color: #fbc02d;
@@ -292,12 +294,6 @@ form {
     color: #ffffff;
 }
 
-@media(max-width:1024px) {
-    navbar {
-        width: 100%;
-    }
-}
-
 .newsletter-text {
     text-align: center;
     color: #ffffff;
@@ -332,8 +328,76 @@ form {
     display: flex;
 }
 
-@media(max-width:1024px) {
-    navbar {
-        width:100%;
+@media(max-width: 576px){
+    .navbar{width: 100%;}
+    h1{text-align:center;
+    font-size: small;}
+    .circle{width:60px;
+    height:260px;}
+    .trust-circles{width:250px;}
+    .boxes-container{
+        margin:auto;
+        width:300px;
+    height: -150px;}
+    .what-we-offer-container{
+        margin:auto;
+        width:300px;
+        height:-400px;
+        padding:20px;
     }
+    .sample-books-container{
+        margin:auto;
+        width:300px;
+        height: -400px;
+    }
+    .books{margin:auto;
+    width:300px;
+    height:-350px;
+}
+.democracy-img{
+    position:relative;
+    top:-310px;
+left:-10px;}
+    .patriotism-img{
+        position:relative;
+        top:-120px;
+        right:-10px;
+    }
+    .book-title{font-weight: 60;
+    font-size:small;
+padding:5px;}
+.teacher-container{margin:auto;
+width:300px;
+height:-300px;
+padding:10px;}
+.project-pilot-container{margin:auto;
+width:300px;
+height:-300px;}
+.intentions-circle{
+    position:relative;
+    width:50px;
+height:50px;}
+.newsletter-container{margin:auto;
+width:300px;}
+form{position:relative;
+left:-150px;}
+.input-email{width:160px;
+position:relative;
+right:15px;}
+.subscribe-button{position:relative;
+right:-140px;
+top:-50px;
+width:110px;}
+.quote-container{margin:auto;
+position:relative;
+width:300px;
+height:-900px;}
+.nelson-mandela{margin:auto;
+position:relative;
+top:-250px;}
+.quote-text{margin:auto;
+width:250px;
+height:250px;
+position:relative;
+right:90px;}
 }
