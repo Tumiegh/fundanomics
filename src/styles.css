@@ -9,7 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    margin:0;
+    /*max-width:100%*/
 }
 
 h6 {
@@ -183,6 +184,7 @@ p {
 }
 
 .newsletter-container {
+    margin:auto;
     width:750px;
     background-color: #e65c00;
     width:1000px;
@@ -239,15 +241,17 @@ p {
 }
 
 form {
-    margin: 50px auto;
+    margin: auto;
     padding-left: 180px;
 }
 
 .input-email {
-    width: 245px;
+    width: 350px;
     height: 50px;
     margin: 0 auto; 
     border: none;
+    position:relative;
+    left:-90px;
 }
 
 .subscribe-button {
@@ -256,6 +260,8 @@ form {
     border: none;
     background-color:#F09150;
     color: #ffffff;
+    position:relative;
+    left:-100px
 }
 
 .contact-heading {
@@ -329,29 +335,39 @@ form {
 }
 
 @media(max-width: 576px){
+    body{max-width:100%;
+    }
     .navbar{width: 100%;}
     h1{text-align:center;
     font-size: small;}
-    .circle{width:60px;
+    .circle{width:50px;
     height:260px;}
-    .trust-circles{width:250px;}
+    .trust-circles{width:75%;
+    font-weight:light;
+font-size:12px;}
     .boxes-container{
         margin:auto;
-        width:300px;
-    height: -150px;}
+        width:75%;
+    height: -100px;
+font-weight:light;
+font-size:12px;}
     .what-we-offer-container{
         margin:auto;
-        width:300px;
-        height:-400px;
+        width:75%;
+        height:-350px;
         padding:20px;
+        font-weight:light;
+        font-size:14px;
     }
     .sample-books-container{
         margin:auto;
-        width:300px;
+        width:75%;
         height: -400px;
+        font-weight: light;
+        font-size:14px;
     }
     .books{margin:auto;
-    width:300px;
+    width:75%;
     height:-350px;
 }
 .democracy-img{
@@ -367,37 +383,93 @@ left:-10px;}
     font-size:small;
 padding:5px;}
 .teacher-container{margin:auto;
-width:300px;
+width:250px;
 height:-300px;
 padding:10px;}
 .project-pilot-container{margin:auto;
-width:300px;
-height:-300px;}
+width:75%;
+height:-250px;
+font-weight:light;
+font-size:11px;}
 .intentions-circle{
     position:relative;
-    width:50px;
-height:50px;}
+}
+#circle-one,
+#circle-two{position:relative;
+width:220px;
+height:220px;}
+#circle-one{position:relative;
+left:-20px;
+bottom:-20px;}
+#circle-two{position:relative;
+left:80px;
+top:-50px;
+}
+.para-one{position:relative;
+top:65px;}
+.para-two{position:relative;
+top:23px;}
 .newsletter-container{margin:auto;
-width:300px;}
-form{position:relative;
-left:-150px;}
+width:75%;}
+/*form{position:relative;
+left:150px;}*/
 .input-email{width:160px;
 position:relative;
-right:15px;}
+right:150px;}
 .subscribe-button{position:relative;
 right:-140px;
 top:-50px;
 width:110px;}
 .quote-container{margin:auto;
 position:relative;
-width:300px;
-height:-900px;}
+width:200px;
+height:500px;
+display:flex;
+flex-direction: column;}
 .nelson-mandela{margin:auto;
 position:relative;
-top:-250px;}
+top:-130px;
+left:100px;
+width:120px;
+height:120px;
+margin:auto;
+}
 .quote-text{margin:auto;
-width:250px;
+width:200px;
 height:250px;
 position:relative;
-right:90px;}
+right:110px;
+bottom:-120px;
+font-weight:light;
+font-size:12px;}
+}
+@media(min-width:768px),(max-width:1023px){
+body{max-width:100%;}
+.project-pilot-container{
+font-weight:normal;
+font-size:12px;}
+#circle-one,
+#circle-two{
+    width:250px;
+    height:250px;
+}
+#circle-two{position:relative;
+right:80px;}
+.para-one{position:relative;
+top:75px;}
+.para-two{position:relative;
+top:35px;}
+.what-we-offer-container{
+padding:20px;
+max-width:100%;}
+.quote-container{padding:70px;
+}
+.circle-container{
+margin:auto;}
+.sample-books-container{margin:auto;}
+.democracy-img{position:relative;
+top:-550px;}
+.patriotism-img{position:relative;
+top:-250px;}
+
 }
