@@ -168,6 +168,63 @@ p {
     text-align: center;
 }
 
+.vector-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+ #ubuntu{
+    background-color: #ED7D31;
+    border-radius: 49%;
+    border: 15px solid #ED7D31;
+  }
+
+.ubuntu{
+    color: #ED7D31;
+}
+
+#democracy{
+    background-color: #ffcc00;
+    border-radius: 49%;
+    border: 15px solid #ffcc00;
+}
+
+.democracy{
+    color: #ffcc00;
+}
+
+#constitution{
+    background-color: #5b9bd5;
+    border-radius: 49%;
+    border: 15px solid #5b9bd5;
+}
+
+.the-constitution{
+    color: #5b9bd5;
+}
+
+#economy{
+    background-color: #70ad47;
+    border: 15px solid #70ad47;   
+    border-radius: 49%;
+}
+
+.the-economy{
+    color: #70ad47;
+}
+
+#patriotism{
+    background-color: #a5a5a5;
+    border-radius: 49%;
+    border: 15px solid #a5a5a5;
+}
+
+.patriotism{
+    color: #a5a5a5;
+}
+
 #miss-khumalo-header{
     margin-top: 150px;
 }
