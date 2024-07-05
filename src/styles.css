@@ -175,54 +175,64 @@ p {
     align-items: center;
 }
 
- #ubuntu{
+ .ubuntu-circle{
     background-color: #ED7D31;
-    border-radius: 49%;
-    border: 15px solid #ED7D31;
+    border-radius: 50%;
+    border: 50px solid #ED7D31;
+    margin: 50px;
   }
 
 .ubuntu{
     color: #ED7D31;
+    font-size: 30px;
 }
 
-#democracy{
+.democracy-circle{
     background-color: #ffcc00;
-    border-radius: 49%;
-    border: 15px solid #ffcc00;
+    border-radius: 50%;
+    border: 50px solid #ffcc00;
+    margin: 50px;
 }
 
 .democracy{
     color: #ffcc00;
+    font-size: 30px;
 }
 
-#constitution{
+.constitution-circle{
     background-color: #5b9bd5;
-    border-radius: 49%;
-    border: 15px solid #5b9bd5;
+    border-radius: 50%;
+    border: 50px solid #5b9bd5;
+    margin: 50px;
 }
 
 .the-constitution{
     color: #5b9bd5;
+    font-size: 30px;
 }
 
-#economy{
+.economy-circle{
     background-color: #70ad47;
-    border: 15px solid #70ad47;   
-    border-radius: 49%;
+    border-radius: 50%;
+    border: 40px solid #70ad47;   
+    margin: 50px;
 }
 
 .the-economy{
     color: #70ad47;
+    font-size: 30px;
 }
 
-#patriotism{
+.patriotism-circle{
     background-color: #a5a5a5;
     border-radius: 49%;
-    border: 15px solid #a5a5a5;
+    border: 50px solid #a5a5a5;
+    margin: 50px;
 }
 
 .patriotism{
     color: #a5a5a5;
+    font-size: 30px;
 }
 
 #miss-khumalo-header{
@@ -268,7 +278,8 @@ p {
     margin-top: 80px;
 }
 .page-logo {
-    margin: 0 auto;
+    margin: auto;
+    align-items: center;
     width: 350px;
     height: 100px;
 }
@@ -334,6 +345,7 @@ p {
 form {
     margin: auto;
     padding-left: 180px;
+    align-items: center;
 }
 
 .input-email {
