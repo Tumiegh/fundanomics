@@ -1,5 +1,4 @@
-/* CSS RESET (Please ignore this code) */
-/* CSS reset rules */
+/* CSS reset rules (Please ignore this code) */
 html, body {
 	height: 100%;
 	min-height: 100%;
@@ -67,7 +66,7 @@ body {
     /*max-width:100%*/
 }
 
-h6{
+h6 {
     text-decoration: underline;
     text-align: center;
 
