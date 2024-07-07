@@ -503,10 +503,12 @@ form {
 @media(max-width: 576px){
     body{max-width:100%;
     }
+    .circle-star{width:150px;
+    height:150px;}
     .navbar{width: 100%;}
     h1{text-align:center;
     font-size: small;}
-    .circle{width:50px;
+    .circle{width:100px;
     height:260px;}
     .trust-circles{width:75%;
     font-weight:light;
@@ -517,41 +519,66 @@ font-size:12px;}
     height: -100px;
 font-weight:light;
 font-size:12px;}
+#about-us{font-weight:400;
+font-size:25px;}
     .what-we-offer-container{
         margin:auto;
         width:75%;
         height:-350px;
         padding:20px;
         font-weight:light;
-        font-size:14px;
+        font-size:12px;
     }
-    .sample-books-container{
+    .books-container{
         margin:auto;
         width:75%;
         height: -400px;
         font-weight: light;
-        font-size:14px;
+        font-size:12px;
     }
     .books{margin:auto;
     width:75%;
     height:-350px;
 }
-.democracy-img{
+.vector-container{width:75%;}
+.ubuntu-circle,
+.democracy-circle,
+.constitution-circle,
+.economy-circle,
+.patriotism-circle{width:186px;
+height:186px;}
+.ubuntu,
+.democracy,
+.the-constitution,
+.the-economy,
+.patriotism{font-size:20px;}
+h6{font-weight:100;
+font-size:10px;}
+.democracy-book{
     position:relative;
-    top:-310px;
-left:-10px;}
-    .patriotism-img{
+    top:40px;
+left:20px;
+width:90px;
+height:90px;}
+    .patriotism-book{
         position:relative;
-        top:-120px;
-        right:-10px;
+        top:40px;
+        right:25px;
+        width:90px;
+        height:90px;
     }
-    .book-title{font-weight: 60;
-    font-size:small;
-padding:5px;}
+    .book-heading-1{position:relative;
+    bottom:100px;}
+    .book-heading-2{position:relative;
+    bottom:100px;}
 .teacher-container{margin:auto;
 width:250px;
 height:-300px;
 padding:10px;}
+.the-teacher{font-size:12px;}
+.miss-khumalo{width:200px;
+height:200px;
+margin:auto;}
 .project-pilot-container{margin:auto;
 width:75%;
 height:-250px;
@@ -588,29 +615,29 @@ top:-50px;
 width:110px;}
 .quote-container{margin:auto;
 position:relative;
-width:200px;
+width:250px;
 height:500px;
 display:flex;
 flex-direction: column;}
 .nelson-mandela{
     margin:auto;
 position:relative;
-top:-130px;
-left:100px;
+top:20px;
+left:40px;
 width:120px;
 height:120px;
 margin:auto;
 }
-.quote-text{margin:auto;
+.quote-text{
 width:200px;
 height:250px;
 position:relative;
-right:110px;
-bottom:-120px;
+right:15px;
+bottom:-90px;
 font-weight:light;
 font-size:12px;}
 }
-@media(min-width:768px),(max-width:1023px){
+@media(min-width:768px),(max-width:1024px){
 body{max-width:100%;}
 .project-pilot-container{
 font-weight:normal;
